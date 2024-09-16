@@ -8,12 +8,15 @@
 # hotel he was staying in. He started {first_verb} and {second_verb} until he
 # tripped on a {noun}. Then he got on the elevator and went to the {number}.")
 
+
+
 # def even_or_odd(number):
 #     if number % 2 == 0:
 #         print("Even")
 #     else:
 #         print("Odd")
 # even_or_odd(20)
+
 
 
 # def tip(bill, service):
@@ -28,6 +31,7 @@
 # tip(120, "Good")
 
 
+
 # def factoring(number):
 #     factors = []
 
@@ -39,12 +43,26 @@
 # factoring(20)
 
 
-def gcf(first_number, second_number):
-    list1 = []
 
-    for i in range(1, first_number+1):
-        if first_number % i == 0 and second_number % i == 0:
-            list1.append(i)
+# def gcf(first_number, second_number):
+#     list1 = []
 
-    print(list1[len(list1)-1])
-gcf(20, 40)
+#     for i in range(1, first_number+1):
+#         if first_number % i == 0 and second_number % i == 0:
+#             list1.append(i)
+
+#     print(list1[len(list1)-1])
+# gcf(20, 40)
+
+# bill = float(input("What is the bill? "))
+# tip = int(input("What is the tip (as a percentage)? "))
+# print(f'The total is ${int(bill*(1+(tip/100)))}')
+
+sentence = input('Enter a sentence: ')
+words = sentence.split(' ')
+length = len(words)
+
+if length > 1:
+    print(f'Your sentence has {length} words')
+else:
+    print(f'Your sentence only has one word')
