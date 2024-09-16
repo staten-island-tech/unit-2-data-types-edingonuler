@@ -15,6 +15,7 @@
 #         print("Odd")
 # even_or_odd(20)
 
+
 # def tip(bill, service):
 #     if service == "Bad":
 #         print(f"you tipped 0% bill. Your total is {bill}")
@@ -26,6 +27,7 @@
 #         print(f"you tipped 25% bill. Your total is {bill*1.25}")
 # tip(120, "Good")
 
+
 # def factoring(number):
 #     factors = []
 
@@ -36,6 +38,13 @@
 #     print(factors)
 # factoring(20)
 
-def gcf(number1, number2):
-    
-gcf(20, 30)
+
+def gcf(first_number, second_number):
+    list1 = []
+
+    for i in range(1, first_number+1):
+        if first_number % i == 0 and second_number % i == 0:
+            list1.append(i)
+
+    print(list1[len(list1)-1])
+gcf(20, 40)
