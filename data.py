@@ -54,15 +54,29 @@
 #     print(list1[len(list1)-1])
 # gcf(20, 40)
 
+
+
 # bill = float(input("What is the bill? "))
 # tip = int(input("What is the tip (as a percentage)? "))
 # print(f'The total is ${int(bill*(1+(tip/100)))}')
 
-sentence = input('Enter a sentence: ')
-words = sentence.split(' ')
-length = len(words)
 
-if length > 1:
-    print(f'Your sentence has {length} words')
-else:
-    print(f'Your sentence only has one word')
+
+# sentence = input('Enter a sentence: ')
+# words = sentence.split(' ')
+# length = len(words)
+# if length > 1:
+#     print(f'Your sentence has {length} words.')
+# else:
+#     print(f'Your sentence only has one word.')
+
+
+
+# temp = 68
+# if temp > 68:
+#     print("Warm")
+# elif temp == 68:
+#     print("Perfect")
+# else:
+#     print("Cold")
+
